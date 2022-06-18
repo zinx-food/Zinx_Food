@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Zinx_food.view
 {
-    public partial class CaixaAbertoView : DevExpress.XtraEditors.XtraForm
+    public partial class HistoricoCaixaUI : DevExpress.XtraEditors.XtraForm
     {
-        public CaixaAbertoView()
+        public HistoricoCaixaUI()
         {
             InitializeComponent();
         }

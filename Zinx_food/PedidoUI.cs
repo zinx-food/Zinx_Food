@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Zinx_food.view
 {
-    public partial class PedidoView : DevExpress.XtraEditors.XtraForm
+    public partial class PedidoUI : DevExpress.XtraEditors.XtraForm
     {
-        public PedidoView()
+        public PedidoUI()
         {
             InitializeComponent();
         }

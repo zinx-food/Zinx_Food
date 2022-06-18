@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Zinx_food.view
 {
-    public partial class ClienteView : DevExpress.XtraEditors.XtraForm
+    public partial class ClienteUI : DevExpress.XtraEditors.XtraForm
     {
-        public ClienteView()
+        public ClienteUI()
         {
             InitializeComponent();
         }

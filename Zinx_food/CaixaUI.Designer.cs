@@ -1,6 +1,6 @@
 ﻿namespace Zinx_food.view
 {
-    partial class CaixaView
+    partial class CaixaUI
     {
         /// <summary>
         /// Required designer variable.

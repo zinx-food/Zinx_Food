@@ -1,6 +1,6 @@
 ﻿namespace Zinx_food.view
 {
-    partial class PrincipalView
+    partial class PrincipalUI
     {
         /// <summary>
         /// Required designer variable.

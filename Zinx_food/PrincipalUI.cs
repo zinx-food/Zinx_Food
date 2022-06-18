@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Zinx_food.view
 {
-    public partial class PrincipalView : DevExpress.XtraBars.Ribbon.RibbonForm
+    public partial class PrincipalUI : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public PrincipalView()
+        public PrincipalUI()
         {
             InitializeComponent();
         }
@@ -25,14 +25,14 @@ namespace Zinx_food.view
 
         private void AbrirFechar_Caixa_ItemClick(object sender, ItemClickEventArgs e)
         {
-            CaixaView cx = new CaixaView();
+            CaixaUI cx = new CaixaUI();
 
             cx.ShowDialog();
         }
 
         private void Historico_Caixa_ItemClick(object sender, ItemClickEventArgs e)
         {
-            HistoricoCaixaView cxHist = new HistoricoCaixaView();
+            HistoricoCaixaUI cxHist = new HistoricoCaixaUI();
 
             cxHist.TopLevel = false;
             cxHist.AutoScroll = true;
@@ -43,7 +43,7 @@ namespace Zinx_food.view
 
         private void PedidoCaixa_Vendas_ItemClick(object sender, ItemClickEventArgs e)
         {
-            PedidoView ped = new PedidoView();
+            PedidoUI ped = new PedidoUI();
             ped.ShowDialog();
         }
     }

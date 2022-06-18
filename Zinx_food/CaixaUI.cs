@@ -2,9 +2,9 @@
 
 namespace Zinx_food.view
 {
-    public partial class CaixaView : DevExpress.XtraEditors.XtraForm
+    public partial class CaixaUI : DevExpress.XtraEditors.XtraForm
     {
-        public CaixaView()
+        public CaixaUI()
         {
             InitializeComponent();
         }
@@ -16,7 +16,7 @@ namespace Zinx_food.view
 
         private void btn_AbrirCaixa_Click(object sender, EventArgs e)
         {
-            CaixaAbertoView cxAberto = new CaixaAbertoView();
+            CaixaAbertoUI cxAberto = new CaixaAbertoUI();
 
             cxAberto.TopLevel = false;
             cxAberto.AutoScroll = true;

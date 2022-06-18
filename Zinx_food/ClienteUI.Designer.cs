@@ -1,6 +1,6 @@
 ﻿namespace Zinx_food.view
 {
-    partial class ClienteView
+    partial class ClienteUI
     {
         /// <summary>
         /// Required designer variable.
