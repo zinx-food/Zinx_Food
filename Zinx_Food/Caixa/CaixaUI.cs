@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Zinx_food.view
+namespace UI.Caixa
 {
     public partial class CaixaUI : DevExpress.XtraEditors.XtraForm
     {

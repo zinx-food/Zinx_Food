@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Zinx_food.view
+namespace UI.Caixa
 {
     public partial class CaixaAbertoUI : DevExpress.XtraEditors.XtraForm
     {

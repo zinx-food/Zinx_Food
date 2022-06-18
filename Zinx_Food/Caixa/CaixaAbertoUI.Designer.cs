@@ -1,4 +1,4 @@
-﻿namespace Zinx_food.view
+﻿namespace UI.Caixa
 {
     partial class CaixaAbertoUI
     {
@@ -100,7 +100,7 @@
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.checkEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.checkEdit1.Location = new System.Drawing.Point(12, 35);
             this.checkEdit1.Name = "checkEdit1";

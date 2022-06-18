@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Zinx_food.view;
+using UI;
 
 namespace Zinx_food
 {

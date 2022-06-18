@@ -8,8 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UI.Caixa;
+using UI.Pedidos;
 
-namespace Zinx_food.view
+namespace UI
 {
     public partial class PrincipalUI : DevExpress.XtraBars.Ribbon.RibbonForm
     {

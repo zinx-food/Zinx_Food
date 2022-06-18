@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Zinx_food.view
+namespace UI.Clientes
 {
-    public partial class HistoricoCaixaUI : DevExpress.XtraEditors.XtraForm
+    public partial class ClienteUI : DevExpress.XtraEditors.XtraForm
     {
-        public HistoricoCaixaUI()
+        public ClienteUI()
         {
             InitializeComponent();
         }

@@ -1,4 +1,4 @@
-﻿namespace Zinx_food.view
+﻿namespace UI.Caixa
 {
     partial class HistoricoCaixaUI
     {

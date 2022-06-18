@@ -1,4 +1,4 @@
-﻿namespace Zinx_food.view
+﻿namespace UI.Clientes
 {
     partial class ClienteUI
     {
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "ClienteView";
+            this.Text = "ClienteUI";
         }
 
         #endregion

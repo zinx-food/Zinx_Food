@@ -1,4 +1,4 @@
-﻿namespace Zinx_food.view
+﻿namespace UI
 {
     partial class PrincipalUI
     {
@@ -189,7 +189,7 @@
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
-            this.ribbonControl.Size = new System.Drawing.Size(1321, 184);
+            this.ribbonControl.Size = new System.Drawing.Size(1319, 184);
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
             // barButtonItem12
@@ -255,7 +255,7 @@
             // 
             this.AbrirFechar_Caixa.Caption = "Abrir / Fechar Meu Caixa";
             this.AbrirFechar_Caixa.Id = 21;
-            this.AbrirFechar_Caixa.ImageOptions.Image = global::Zinx_food.Properties.Resources.caixa_registradora;
+            this.AbrirFechar_Caixa.ImageOptions.Image = global::UI.Properties.Resources.caixa_registradora;
             this.AbrirFechar_Caixa.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AbrirFechar_Caixa.ItemAppearance.Normal.Options.UseFont = true;
             this.AbrirFechar_Caixa.LargeWidth = 100;
@@ -267,7 +267,7 @@
             // 
             this.Historico_Caixa.Caption = "Histórico do Caixa";
             this.Historico_Caixa.Id = 22;
-            this.Historico_Caixa.ImageOptions.Image = global::Zinx_food.Properties.Resources.relogio;
+            this.Historico_Caixa.ImageOptions.Image = global::UI.Properties.Resources.relogio;
             this.Historico_Caixa.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Historico_Caixa.ItemAppearance.Normal.Options.UseFont = true;
             this.Historico_Caixa.LargeWidth = 100;
@@ -291,7 +291,7 @@
             this.PedidoCaixa_Vendas.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
             this.PedidoCaixa_Vendas.Caption = "Pedidos no Caixa";
             this.PedidoCaixa_Vendas.Id = 24;
-            this.PedidoCaixa_Vendas.ImageOptions.Image = global::Zinx_food.Properties.Resources.entrega_de_pedido;
+            this.PedidoCaixa_Vendas.ImageOptions.Image = global::UI.Properties.Resources.entrega_de_pedido;
             this.PedidoCaixa_Vendas.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.PedidoCaixa_Vendas.ItemAppearance.Normal.Options.UseFont = true;
             this.PedidoCaixa_Vendas.LargeWidth = 110;
@@ -304,7 +304,7 @@
             this.barButtonItem7.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
             this.barButtonItem7.Caption = "Clientes\r\n";
             this.barButtonItem7.Id = 25;
-            this.barButtonItem7.ImageOptions.Image = global::Zinx_food.Properties.Resources.pessoas;
+            this.barButtonItem7.ImageOptions.Image = global::UI.Properties.Resources.pessoas;
             this.barButtonItem7.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem7.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem7.LargeWidth = 80;
@@ -316,7 +316,7 @@
             this.barButtonItem8.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
             this.barButtonItem8.Caption = "Mais Vendidos";
             this.barButtonItem8.Id = 26;
-            this.barButtonItem8.ImageOptions.Image = global::Zinx_food.Properties.Resources.trofeu;
+            this.barButtonItem8.ImageOptions.Image = global::UI.Properties.Resources.trofeu;
             this.barButtonItem8.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem8.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem8.LargeWidth = 100;
@@ -328,7 +328,7 @@
             this.barButtonItem9.AllowHtmlText = DevExpress.Utils.DefaultBoolean.False;
             this.barButtonItem9.Caption = "Ranking de Atendimentos";
             this.barButtonItem9.Id = 27;
-            this.barButtonItem9.ImageOptions.Image = global::Zinx_food.Properties.Resources.garcom;
+            this.barButtonItem9.ImageOptions.Image = global::UI.Properties.Resources.garcom;
             this.barButtonItem9.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem9.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem9.LargeWidth = 100;
@@ -339,7 +339,7 @@
             // 
             this.barButtonItem10.Caption = "Bloquear ou Trocar Usuário";
             this.barButtonItem10.Id = 28;
-            this.barButtonItem10.ImageOptions.Image = global::Zinx_food.Properties.Resources.bloqueado;
+            this.barButtonItem10.ImageOptions.Image = global::UI.Properties.Resources.bloqueado;
             this.barButtonItem10.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem10.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem10.LargeWidth = 100;
@@ -350,7 +350,7 @@
             // 
             this.barButtonItem11.Caption = "Sair";
             this.barButtonItem11.Id = 29;
-            this.barButtonItem11.ImageOptions.Image = global::Zinx_food.Properties.Resources.sair;
+            this.barButtonItem11.ImageOptions.Image = global::UI.Properties.Resources.sair;
             this.barButtonItem11.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem11.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem11.LargeWidth = 80;
@@ -373,7 +373,7 @@
             // 
             this.barButtonItem14.Caption = "Produtos";
             this.barButtonItem14.Id = 34;
-            this.barButtonItem14.ImageOptions.Image = global::Zinx_food.Properties.Resources.descricao_do_produto;
+            this.barButtonItem14.ImageOptions.Image = global::UI.Properties.Resources.descricao_do_produto;
             this.barButtonItem14.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem14.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem14.LargeWidth = 80;
@@ -384,7 +384,7 @@
             // 
             this.barButtonItem15.Caption = "Complementos";
             this.barButtonItem15.Id = 35;
-            this.barButtonItem15.ImageOptions.Image = global::Zinx_food.Properties.Resources.molho_de_tomate;
+            this.barButtonItem15.ImageOptions.Image = global::UI.Properties.Resources.molho_de_tomate;
             this.barButtonItem15.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem15.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem15.LargeWidth = 90;
@@ -395,7 +395,7 @@
             // 
             this.barButtonItem16.Caption = "Observações";
             this.barButtonItem16.Id = 36;
-            this.barButtonItem16.ImageOptions.Image = global::Zinx_food.Properties.Resources.observacao;
+            this.barButtonItem16.ImageOptions.Image = global::UI.Properties.Resources.observacao;
             this.barButtonItem16.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem16.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem16.LargeWidth = 90;
@@ -406,7 +406,7 @@
             // 
             this.barButtonItem17.Caption = "Categorias";
             this.barButtonItem17.Id = 37;
-            this.barButtonItem17.ImageOptions.Image = global::Zinx_food.Properties.Resources.filtrando;
+            this.barButtonItem17.ImageOptions.Image = global::UI.Properties.Resources.filtrando;
             this.barButtonItem17.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem17.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem17.LargeWidth = 90;
@@ -418,7 +418,7 @@
             this.barButtonItem18.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
             this.barButtonItem18.Caption = "Tipos e Tamanhos";
             this.barButtonItem18.Id = 38;
-            this.barButtonItem18.ImageOptions.Image = global::Zinx_food.Properties.Resources.tipo;
+            this.barButtonItem18.ImageOptions.Image = global::UI.Properties.Resources.tipo;
             this.barButtonItem18.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem18.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem18.LargeWidth = 110;
@@ -501,7 +501,7 @@
             // 
             this.barButtonItem26.Caption = "Histórico de Itens Vendidos";
             this.barButtonItem26.Id = 46;
-            this.barButtonItem26.ImageOptions.Image = global::Zinx_food.Properties.Resources.relogio;
+            this.barButtonItem26.ImageOptions.Image = global::UI.Properties.Resources.relogio;
             this.barButtonItem26.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem26.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem26.LargeWidth = 100;
@@ -512,7 +512,7 @@
             // 
             this.barButtonItem27.Caption = "Formas de Pagamento";
             this.barButtonItem27.Id = 47;
-            this.barButtonItem27.ImageOptions.Image = global::Zinx_food.Properties.Resources.intercambio;
+            this.barButtonItem27.ImageOptions.Image = global::UI.Properties.Resources.intercambio;
             this.barButtonItem27.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem27.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem27.LargeWidth = 100;
@@ -523,7 +523,7 @@
             // 
             this.barButtonItem28.Caption = "Categoria de Contas";
             this.barButtonItem28.Id = 48;
-            this.barButtonItem28.ImageOptions.Image = global::Zinx_food.Properties.Resources.filtrando;
+            this.barButtonItem28.ImageOptions.Image = global::UI.Properties.Resources.filtrando;
             this.barButtonItem28.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem28.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem28.LargeWidth = 100;
@@ -534,7 +534,7 @@
             // 
             this.barButtonItem29.Caption = "Fornecedores";
             this.barButtonItem29.Id = 49;
-            this.barButtonItem29.ImageOptions.Image = global::Zinx_food.Properties.Resources.fornecedor;
+            this.barButtonItem29.ImageOptions.Image = global::UI.Properties.Resources.fornecedor;
             this.barButtonItem29.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem29.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem29.LargeWidth = 100;
@@ -555,7 +555,7 @@
             // 
             this.barButtonItem31.Caption = "Meu Negócio";
             this.barButtonItem31.Id = 51;
-            this.barButtonItem31.ImageOptions.Image = global::Zinx_food.Properties.Resources.monitor;
+            this.barButtonItem31.ImageOptions.Image = global::UI.Properties.Resources.monitor;
             this.barButtonItem31.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem31.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem31.LargeWidth = 90;
@@ -588,7 +588,7 @@
             // 
             this.barButtonItem34.Caption = "Configurações do Sistema";
             this.barButtonItem34.Id = 54;
-            this.barButtonItem34.ImageOptions.Image = global::Zinx_food.Properties.Resources.configuracoes_de_engrenagens_contornos_simbolo_de_interface;
+            this.barButtonItem34.ImageOptions.Image = global::UI.Properties.Resources.configuracoes_de_engrenagens_contornos_simbolo_de_interface;
             this.barButtonItem34.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem34.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem34.LargeWidth = 100;
@@ -599,7 +599,7 @@
             // 
             this.barButtonItem35.Caption = "Impressora";
             this.barButtonItem35.Id = 55;
-            this.barButtonItem35.ImageOptions.Image = global::Zinx_food.Properties.Resources.impressora;
+            this.barButtonItem35.ImageOptions.Image = global::UI.Properties.Resources.impressora;
             this.barButtonItem35.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem35.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem35.LargeWidth = 80;
@@ -610,7 +610,7 @@
             // 
             this.barButtonItem36.Caption = "Colaboradores";
             this.barButtonItem36.Id = 56;
-            this.barButtonItem36.ImageOptions.Image = global::Zinx_food.Properties.Resources.grupo_de_usuarios;
+            this.barButtonItem36.ImageOptions.Image = global::UI.Properties.Resources.grupo_de_usuarios;
             this.barButtonItem36.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem36.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem36.LargeWidth = 100;
@@ -638,7 +638,7 @@
             // 
             this.barButtonItem39.Caption = "Logs";
             this.barButtonItem39.Id = 59;
-            this.barButtonItem39.ImageOptions.Image = global::Zinx_food.Properties.Resources.log;
+            this.barButtonItem39.ImageOptions.Image = global::UI.Properties.Resources.log;
             this.barButtonItem39.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem39.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem39.LargeWidth = 70;
@@ -668,7 +668,7 @@
             this.barButtonItem42.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
             this.barButtonItem42.Caption = "Ajuda e Suporte";
             this.barButtonItem42.Id = 62;
-            this.barButtonItem42.ImageOptions.Image = global::Zinx_food.Properties.Resources.suporte_tecnico;
+            this.barButtonItem42.ImageOptions.Image = global::UI.Properties.Resources.suporte_tecnico;
             this.barButtonItem42.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem42.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem42.LargeWidth = 100;
@@ -680,7 +680,7 @@
             this.barButtonItem43.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
             this.barButtonItem43.Caption = "Idéias e Sugestões";
             this.barButtonItem43.Id = 63;
-            this.barButtonItem43.ImageOptions.Image = global::Zinx_food.Properties.Resources.lampada;
+            this.barButtonItem43.ImageOptions.Image = global::UI.Properties.Resources.lampada;
             this.barButtonItem43.ItemAppearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.barButtonItem43.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem43.LargeWidth = 110;
@@ -722,7 +722,7 @@
             // 
             this.barButtonItem2.Caption = "Histórico de Pedidos";
             this.barButtonItem2.Id = 69;
-            this.barButtonItem2.ImageOptions.Image = global::Zinx_food.Properties.Resources.relogio;
+            this.barButtonItem2.ImageOptions.Image = global::UI.Properties.Resources.relogio;
             this.barButtonItem2.LargeWidth = 100;
             this.barButtonItem2.Name = "barButtonItem2";
             this.barButtonItem2.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
@@ -880,20 +880,20 @@
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelPrincipal.Location = new System.Drawing.Point(0, 184);
             this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(1321, 604);
+            this.PanelPrincipal.Size = new System.Drawing.Size(1319, 603);
             this.PanelPrincipal.TabIndex = 1;
             // 
-            // PrincipalView
+            // PrincipalUI
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1321, 788);
+            this.ClientSize = new System.Drawing.Size(1319, 787);
             this.Controls.Add(this.PanelPrincipal);
             this.Controls.Add(this.ribbonControl);
             this.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "PrincipalView";
+            this.Name = "PrincipalUI";
             this.Ribbon = this.ribbonControl;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PrincipalView";

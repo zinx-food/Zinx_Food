@@ -1,4 +1,4 @@
-﻿namespace Zinx_food.view
+﻿namespace UI.Caixa
 {
     partial class CaixaUI
     {
@@ -68,14 +68,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(255, 684);
+            this.panel1.Size = new System.Drawing.Size(255, 676);
             this.panel1.TabIndex = 15;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.btn_AbrirCaixa);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 542);
+            this.panel2.Location = new System.Drawing.Point(0, 534);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(255, 142);
             this.panel2.TabIndex = 15;
@@ -87,7 +87,7 @@
             this.btn_AbrirCaixa.Appearance.Options.UseFont = true;
             this.btn_AbrirCaixa.Appearance.Options.UseForeColor = true;
             this.btn_AbrirCaixa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_AbrirCaixa.ImageOptions.Image = global::Zinx_food.Properties.Resources.caixa_registradora;
+            this.btn_AbrirCaixa.ImageOptions.Image = global::UI.Properties.Resources.caixa_registradora;
             this.btn_AbrirCaixa.Location = new System.Drawing.Point(0, 0);
             this.btn_AbrirCaixa.Name = "btn_AbrirCaixa";
             this.btn_AbrirCaixa.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
@@ -148,7 +148,7 @@
             this.PanelCaixa.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelCaixa.Location = new System.Drawing.Point(255, 0);
             this.PanelCaixa.Name = "PanelCaixa";
-            this.PanelCaixa.Size = new System.Drawing.Size(1076, 684);
+            this.PanelCaixa.Size = new System.Drawing.Size(1074, 676);
             this.PanelCaixa.TabIndex = 16;
             // 
             // label6
@@ -158,19 +158,19 @@
             this.label6.ForeColor = System.Drawing.Color.DimGray;
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(1076, 684);
+            this.label6.Size = new System.Drawing.Size(1074, 676);
             this.label6.TabIndex = 15;
             this.label6.Text = "Não há entradas ou saídas.\r\n(Caixa fechado).";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // CaixaView
+            // CaixaUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1331, 684);
+            this.ClientSize = new System.Drawing.Size(1329, 676);
             this.Controls.Add(this.PanelCaixa);
             this.Controls.Add(this.panel1);
-            this.Name = "CaixaView";
+            this.Name = "CaixaUI";
             this.Text = "CaixaView";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
